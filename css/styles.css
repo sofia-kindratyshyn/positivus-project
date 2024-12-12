@@ -1,0 +1,149 @@
+body {
+    font-style: normal;
+    font-family: "Space Grotesk", sans-serif;
+    box-sizing: border-box;
+    background-color: #fff;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1240px;
+    padding: 0 100px;
+}
+
+.main-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 70px;
+    margin-top: 60px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    gap: 206px;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.company-logo {
+    fill: #212121;
+}
+
+/*.logo {}*/
+
+.nav-part {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+
+}
+
+/*.navigation-list-item {}*/
+
+.nav-item {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #000;
+}
+
+.hdr-button {
+    border: 1px solid #191a23;
+    border-radius: 14px;
+    padding: 20px 35px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+    color: #000;
+    font-family: "Space Grotesk", sans-serif;
+    min-width: 231px;
+}
+
+.navigating {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.main-nvgtng {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    max-width: 531px;
+}
+
+.main-title {
+    font-weight: 500;
+    font-size: 60px;
+    color: #000;
+}
+
+.navigating-par {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #000;
+}
+
+.booking-btn {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+    color: #fff;
+    border-radius: 14px;
+    padding: 20px 35px;
+    background: #191a23;
+
+    width: 264px;
+
+}
+
+/*.gramophone {}*/
+
+.company-list {
+    display: flex;
+    gap: 95.9px;
+}
+
+/*.company-logo {}
+
+.services-card {}
+
+.section-main-title {}
+
+.services-list-cards {}*/
